@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Temperature</title>
+
+<link rel="stylesheet" href="asset/css/style.css" />
+
+</head>
+<body>
+
+<section class="container">
+	<form class="form">
+		<fieldset>
+			<legend>Convert Temperature</legend>
+			<label>
+				Celsius
+				<input id="celsius" type="text" placeholder="Ex: 35" required="required" />
+			</label>
+			<button>Convert</button>
+		</fieldset>
+	</form>
+	
+	<div class="content-result">
+		<span class="label">Fahrenheit</span>
+		<span class="result">0.00</span>
+	</div>
+</section>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="asset/js/TEMPService.js"></script>
+<script src="asset/js/TEMPController.js"></script>
+
+</body>
+</html>
